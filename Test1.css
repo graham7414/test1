@@ -1,0 +1,44 @@
+header,footer,aside,nave,article {
+  display: block;
+}
+
+body {
+  margin: 0 auto;
+  width: 940px;
+  background: #f0f0f0;
+  font: 13px Helvetica, Arial, sans-seif;
+}
+
+nav {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0 auto;
+  width: 940px;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a{
+/* for links */
+}
+
+#intro h2 {
+  color: #fff;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 44px;
+  padding: 22px 0;
+}
+
+p {
+  padding-bottom: 22px
+}
