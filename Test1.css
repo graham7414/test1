@@ -1,44 +1,24 @@
-header,footer,aside,nave,article {
-  display: block;
+body, div, h1, form, fieldset, input, textarea {
+	margin: 0; padding: 0; border: 0; outline: none;
+}
+
+html {
+	height: 100%;
 }
 
 body {
-  margin: 0 auto;
-  width: 940px;
-  background: #f0f0f0;
-  font: 13px Helvetica, Arial, sans-seif;
+	background: #728eaa;
+	width: 940px;
+	background: -moz-linear-gradient(top, #25303C 0%, #728EAA 100%);
+	font-family: sans-serif;
 }
 
-nav {
-  position: absolute;
-  left: 0;
-  width: 100%;
+#contact {
+	wodth: 430px; margin: 60px auto; padding: 60px 30px;
+	background: #c9d0de; border: 1px solid #e1e1e1;
+	-moz-box-shadow: 0px 0px 8px #444;
 }
-
-nav ul {
-  margin: 0 auto;
-  width: 940px;
-  list-style: none;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li a{
-/* for links */
-}
-
-#intro h2 {
-  color: #fff;
-}
-
-h2 {
-  font-size: 28px;
-  line-height: 44px;
-  padding: 22px 0;
-}
-
-p {
-  padding-bottom: 22px
+h1 {
+	font-size: 35px; color: #445668; text-transform: uppercase;
+	text-align: center; margin: 0 0 35px 0; text-shadow: 0px 1px 0px #f2f2f2;
 }
